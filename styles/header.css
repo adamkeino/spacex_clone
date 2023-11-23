@@ -9,9 +9,15 @@
     align-items: center;
     gap: 1.5%;
 }
+.logo {
+    width: 90%;
+    margin-left: 12%;
+}
 .header-text-links {
     cursor: pointer;
+    font-size: 85%;
     transition: text-decoration 2s;
+
 }
 .header-text-links:hover{
     text-decoration: underline;
@@ -19,9 +25,10 @@
 .header-far-right {
     display: flex;
     flex-direction: row;
-    margin-left: 10%;
     cursor: pointer;
     align-items: center;
+    position: fixed;
+    right: 20px;
 }
 .header-far-right:hover {
     text-decoration: underline;
